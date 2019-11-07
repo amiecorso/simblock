@@ -63,7 +63,9 @@ public class NetworkConfiguration {
 	private static final double[] REGION_DISTRIBUTION_LITECOIN     = { 0.3661, 0.4791, 0.0149, 0.1022, 0.0238, 0.0139};
 	private static final double[] REGION_DISTRIBUTION_DOGECOIN     = { 0.3924, 0.4879, 0.0212, 0.0697, 0.0106, 0.0182};
 
-	public static final double[] REGION_DISTRIBUTION = REGION_DISTRIBUTION_BITCOIN_2019;
+	private static final double[] REGION_DISTRIBUTION_CUSTOM     = { 1, 0, 0, 0, 0, 0};
+
+	public static final double[] REGION_DISTRIBUTION = REGION_DISTRIBUTION_CUSTOM;
 
 	private static final double[] DEGREE_DISTRIBUTION_BITCOIN_2015 = {0.025,0.050,0.075,0.10,0.20,0.30,0.40,0.50,0.60,0.70,0.80,0.85,0.90,0.95,0.97,0.97,0.98,0.99,0.995,1.0};
 	private static final double[] DEGREE_DISTRIBUTION_LITECOIN     = {0.01,0.02,0.04,0.07,0.09,0.14,0.20,0.28,0.39,0.5,0.6,0.69,0.76,0.81,0.85,0.87,0.89,0.92,0.93,1.0};
