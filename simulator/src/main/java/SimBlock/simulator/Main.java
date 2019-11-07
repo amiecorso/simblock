@@ -142,9 +142,9 @@ public class Main {
 
             for(Block b:blockList){
     			if(!orphans.contains(b)){
-    				pw.println("OnChain : "+b.getHeight()+" : "+b);
+    				pw.println("OnChain : " + b.getHeight() + " : " + b + " : " + b.getTime());
     			}else{
-    				pw.println("Orphan : "+b.getHeight()+" : "+b);
+    				pw.println("Orphan : " + b.getHeight() + " : " + b + " : " + b.getTime());
     			}
             }
             pw.close();
